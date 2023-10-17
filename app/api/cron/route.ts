@@ -10,7 +10,7 @@ import {
 } from "@/lib/utils";
 import { NextResponse } from "next/server";
 
-export const maxDuration = 300; // 5 minutes
+export const maxDuration = 10; // 10 seconds
 export const dynamic = "force-dynamic"; // force dynamic rendering
 export const revalidate = 0; // revalidate every 5 minutes
 
